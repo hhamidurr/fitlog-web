@@ -6,7 +6,7 @@ FitLog is a modern, responsive workout library and fitness planning application 
 
 ## 🌐 Live Demo
 
-- **Live Website:** [Visit FitLog](YOUR_DEPLOYED_WEBSITE_URL)
+- **Live Website:** [Visit FitLog](https://fitlog-web-peach.vercel.app/)
 - **GitHub Repository:** [View Source Code](https://github.com/hhamidurr/fitlog-web)
 
 ## ✨ Key Features
