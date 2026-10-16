@@ -1,8 +1,12 @@
-import { Divide } from "lucide-react";
-import Image from "next/image";
+import Banner from "./components/banner";
+import WorkoutPage from "./workouts/page";
+
 
 export default function Home() {
   return (
-    <div>this is home</div>
+    <>
+      <Banner />
+      <WorkoutPage />
+    </>
   );
 }

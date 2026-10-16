@@ -1,5 +1,6 @@
 import React, { Suspense } from "react";
 import WorkoutCard from "../components/itemCard";
+import Loading from "../myplan/loading";
 
 
 const WorkoutPage = () => {
@@ -22,7 +23,7 @@ const WorkoutPage = () => {
 
         {/* Workout Cards */}
         <div className="">
-          <Suspense fallback="Data is loading....">
+          <Suspense fallback={<Loading/>}>
             <WorkoutCard/>
           </Suspense>
         </div>
